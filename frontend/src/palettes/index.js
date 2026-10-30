@@ -15,14 +15,13 @@ export const PALETTE_SEEDS = ["main", "accent"];
  */
 
 /**
- * Built-in palettes. "default" is never applied - it leaves the stock
- * Tailwind colors untouched - its colors only seed a new instance palette.
+ * Built-in palettes. "default" supplies the BMICorp brand colors.
  * `shades` replaces generated steps outright, for looks a hue alone cannot
  * reach like pure black. Keys are `scale-step`, values are `r g b` channels.
  * @type {Record<string, {name: string, shades?: Record<string, string>} & PaletteColors>}
  */
 const BUILT_IN_PALETTES = {
-  default: { name: "Default", main: "#71717a", accent: "#0ea5e9" },
+  default: { name: "BMICorp", main: "#806440", accent: "#dda94f" },
   // Pure black page background with near-black surfaces, for OLED screens.
   "true-dark": {
     name: "True Dark",
@@ -367,12 +366,10 @@ export function applyPalette(paletteState, mode) {
   const { preview } = paletteState;
   const colors = preview
     ? preview.colors
-    : key === "default"
-      ? null
-      : option?.colors;
+    : option?.colors;
   const shades = (preview ? preview.shades : option?.shades) ?? {};
 
-  const attribute = preview ? "preview" : key;
+  const attribute = preview ? "preview" : key === "default" ? "bmicorp" : key;
   root.setAttribute("data-palette", colors ? attribute : "default");
 
   const properties = {};

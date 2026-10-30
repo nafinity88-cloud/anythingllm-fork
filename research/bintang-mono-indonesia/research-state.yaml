@@ -1,0 +1,17 @@
+subject: PT Bintang Mono Indonesia
+scope: public-source company research in Indonesian
+method: autoresearch adapted to iterative evidence verification
+status: complete
+as_of: 2026-10-30
+source_entries: 14
+report_pages: 7
+hypotheses:
+  H1: supported identity consistency in company channels and DJKI publication
+  H2: supported published portfolio only, not current availability
+  H3: commercial opportunities proposed, not experimentally proven
+quality_assurance: rendered using packaged render_docx.py and all seven page images inspected
+output: to_human/Riset Bintang Mono Indonesia.docx
+open_questions:
+  - current distribution authority and active certificates
+  - product-level permit and availability status
+  - verified ownership, financials and sales performance

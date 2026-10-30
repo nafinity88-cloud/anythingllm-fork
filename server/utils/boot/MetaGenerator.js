@@ -27,8 +27,8 @@ class MetaGenerator {
   #customConfig = null;
 
   #defaultManifest = {
-    name: "AnythingLLM",
-    short_name: "AnythingLLM",
+    name: "BMICorp AI-Assistant",
+    short_name: "BMICorp AI-Assistant",
     display: "standalone",
     orientation: "portrait",
     start_url: "/",
@@ -53,27 +53,27 @@ class MetaGenerator {
     return [
       {
         tag: "link",
-        props: { type: "image/svg+xml", href: "/favicon.png" },
+        props: { type: "image/png", href: "/favicon.png" },
         content: null,
       },
       {
         tag: "title",
         props: null,
-        content: "AnythingLLM | Your personal LLM trained on anything",
+        content: "BMICorp AI-Assistant",
       },
 
       {
         tag: "meta",
         props: {
           name: "title",
-          content: "AnythingLLM | Your personal LLM trained on anything",
+          content: "BMICorp AI-Assistant",
         },
       },
       {
         tag: "meta",
         props: {
-          description: "title",
-          content: "AnythingLLM | Your personal LLM trained on anything",
+          name: "description",
+          content: "Aplikasi Asisten AI BMI Corp",
         },
       },
 
@@ -87,14 +87,14 @@ class MetaGenerator {
         tag: "meta",
         props: {
           property: "og:title",
-          content: "AnythingLLM | Your personal LLM trained on anything",
+          content: "BMICorp AI-Assistant",
         },
       },
       {
         tag: "meta",
         props: {
           property: "og:description",
-          content: "AnythingLLM | Your personal LLM trained on anything",
+          content: "Aplikasi Asisten AI BMI Corp",
         },
       },
       {
@@ -119,14 +119,14 @@ class MetaGenerator {
         tag: "meta",
         props: {
           property: "twitter:title",
-          content: "AnythingLLM | Your personal LLM trained on anything",
+          content: "BMICorp AI-Assistant",
         },
       },
       {
         tag: "meta",
         props: {
           property: "twitter:description",
-          content: "AnythingLLM | Your personal LLM trained on anything",
+          content: "Aplikasi Asisten AI BMI Corp",
         },
       },
       {
@@ -245,7 +245,7 @@ class MetaGenerator {
             props: null,
             content:
               customTitle ??
-              "AnythingLLM | Your personal LLM trained on anything",
+              "BMICorp AI-Assistant",
           };
         }
         // Override meta title
@@ -256,7 +256,7 @@ class MetaGenerator {
               name: "title",
               content:
                 customTitle ??
-                "AnythingLLM | Your personal LLM trained on anything",
+                "BMICorp AI-Assistant",
             },
           };
         }
@@ -268,7 +268,7 @@ class MetaGenerator {
               property: "og:title",
               content:
                 customTitle ??
-                "AnythingLLM | Your personal LLM trained on anything",
+                "BMICorp AI-Assistant",
             },
           };
         }
@@ -280,7 +280,7 @@ class MetaGenerator {
               property: "twitter:title",
               content:
                 customTitle ??
-                "AnythingLLM | Your personal LLM trained on anything",
+                "BMICorp AI-Assistant",
             },
           };
         }

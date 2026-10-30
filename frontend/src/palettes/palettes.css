@@ -108,3 +108,24 @@ left alone, the regenerated scales keep their contrast.
 :root[data-palette]:not([data-palette="default"]) body {
   background-color: var(--theme-bg-container);
 }
+
+/* BMICorp gold accents for legacy checklist and home components. */
+:root[data-palette="bmicorp"] {
+  --theme-checklist-item-bg: #44331c;
+  --theme-checklist-item-bg-hover: #5c4423;
+  --theme-checklist-item-text: #f6dfad;
+  --theme-button-code-hover-bg: #44331c;
+  --theme-home-button-secondary-border: #a67b3d;
+  --theme-home-button-secondary-border-hover: #e2b766;
+}
+:root[data-palette="bmicorp"][data-theme="light"] {
+  --theme-checklist-item-bg: #f7ead0;
+  --theme-checklist-item-bg-hover: #eed9ad;
+  --theme-checklist-item-text: #573b13;
+  --theme-button-code-hover-bg: #f7ead0;
+  --theme-home-button-secondary: #f4e6ca;
+  --theme-home-button-secondary-hover: #ead4a8;
+  --theme-home-button-secondary-text: #573b13;
+  --theme-home-button-secondary-hover-text: #573b13;
+  --theme-sidebar-item-text-active: #573b13;
+}

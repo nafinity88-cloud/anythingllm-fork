@@ -8,7 +8,7 @@ const TRANSLATIONS = {
     llm: {
       title: "Preferovaný LLM",
       description:
-        "AnythingLLM může pracovat s mnoha poskytovateli LLM. Toto bude služba, která bude zpracovávat chatování.",
+        "Ai-Assistant může pracovat s mnoha poskytovateli LLM. Toto bude služba, která bude zpracovávat chatování.",
     },
     userSetup: {
       title: "Nastavení uživatele",
@@ -35,15 +35,15 @@ const TRANSLATIONS = {
         "Tato nastavení lze kdykoliv znovu nakonfigurovat v nastavení.",
     },
     survey: {
-      title: "Vítejte v AnythingLLM",
+      title: "Vítejte v Ai-Assistant",
       description:
-        "Pomozte nám vybudovat AnythingLLM pro vaše potřeby. Volitelné.",
+        "Pomozte nám vybudovat Ai-Assistant pro vaše potřeby. Volitelné.",
       email: "Jaký je váš e-mail?",
-      useCase: "K čemu budete AnythingLLM používat?",
+      useCase: "K čemu budete Ai-Assistant používat?",
       useCaseWork: "Pro práci",
       useCasePersonal: "Pro osobní použití",
       useCaseOther: "Jiné",
-      comment: "Jak jste se o AnythingLLM dozvěděli?",
+      comment: "Jak jste se o Ai-Assistant dozvěděli?",
       commentPlaceholder:
         "Reddit, Twitter, GitHub, YouTube atd. - Dejte nám vědět, jak jste nás našli!",
       skip: "Přeskočit průzkum",
@@ -107,7 +107,7 @@ const TRANSLATIONS = {
     "experimental-features": "Experimentální funkce",
     contact: "Kontaktovat podporu",
     "browser-extension": "Rozšíření prohlížeče",
-    "mobile-app": "AnythingLLM Mobile",
+    "mobile-app": "Ai-Assistant Mobile",
     "community-hub": {
       title: "Centrální místo pro komunitu",
       trending: "Prozkoumejte aktuální trendy",
@@ -204,7 +204,7 @@ const TRANSLATIONS = {
       add: "Přidat novou zprávu",
       save: "Uložit zprávy",
       heading: "Vysvětlit mi",
-      body: "výhody AnythingLLM",
+      body: "výhody Ai-Assistant",
     },
     delete: {
       title: "Smazat pracovní prostor",
@@ -815,7 +815,7 @@ const TRANSLATIONS = {
       "intelligent-skill-selection": {
         title: "Inteligentní výběr dovedností",
         description:
-          "Umožněte použití libovolného počtu nástrojů a snížit využití tokenů až o 80 % pro každou dotaz — AnythingLLM automaticky vybírá vhodné dovednosti pro každou žádost.",
+          "Umožněte použití libovolného počtu nástrojů a snížit využití tokenů až o 80 % pro každou dotaz — Ai-Assistant automaticky vybírá vhodné dovednosti pro každou žádost.",
         "max-tools": {
           title: "Nástroje Max",
           description:
@@ -852,12 +852,12 @@ const TRANSLATIONS = {
   customization: {
     interface: {
       title: "Předvolby rozhraní",
-      description: "Nastavte své předvolby rozhraní pro AnythingLLM.",
+      description: "Nastavte své předvolby rozhraní pro Ai-Assistant.",
     },
     branding: {
       title: "Značení a bílé označení",
       description:
-        "Bílé označení instance AnythingLLM pomocí vlastního značení.",
+        "Bílé označení instance Ai-Assistant pomocí vlastního značení.",
       tabs: {
         identity: "Identita",
         colors: "Barvy",
@@ -867,7 +867,7 @@ const TRANSLATIONS = {
     },
     chat: {
       title: "Chat",
-      description: "Nastavte své předvolby chatu pro AnythingLLM.",
+      description: "Nastavte své předvolby chatu pro Ai-Assistant.",
       auto_submit: {
         title: "Automatické odeslání hlasového vstupu",
         description: "Automaticky odeslat hlasový vstup po období ticha",
@@ -904,7 +904,7 @@ const TRANSLATIONS = {
       "display-language": {
         title: "Zobrazovací jazyk",
         description:
-          "Vyberte preferovaný jazyk pro vykreslení rozhraní AnythingLLM - pokud jsou k dispozici překlady.",
+          "Vyberte preferovaný jazyk pro vykreslení rozhraní Ai-Assistant - pokud jsou k dispozici překlady.",
       },
       logo: {
         title: "Logo značky",
@@ -979,7 +979,7 @@ const TRANSLATIONS = {
   api: {
     title: "API klíče",
     description:
-      "API klíče umožňují držiteli programově přistupovat a spravovat tuto instanci AnythingLLM.",
+      "API klíče umožňují držiteli programově přistupovat a spravovat tuto instanci Ai-Assistant.",
     link: "Přečíst dokumentaci API",
     generate: "Generovat nový API klíč",
     empty: "Nebyly nalezeny žádné API klíče",
@@ -993,7 +993,7 @@ const TRANSLATIONS = {
       close: "Zavřít",
       create: "Vytvořit API klíč",
       helper:
-        "Po vytvoření lze API klíč použít pro programový přístup k této instanci AnythingLLM a její správu.",
+        "Po vytvoření lze API klíč použít pro programový přístup k této instanci Ai-Assistant a její správu.",
       name: {
         label: "Název",
         placeholder: "Produkční integrace",
@@ -1018,7 +1018,7 @@ const TRANSLATIONS = {
   llm: {
     title: "Preferovaný LLM",
     description:
-      "Toto jsou přihlašovací údaje a nastavení pro vašeho preferovaného poskytovatele chatu a embeddingu LLM. Je důležité, aby tyto klíče byly aktuální a správné, jinak AnythingLLM nebude fungovat správně.",
+      "Toto jsou přihlašovací údaje a nastavení pro vašeho preferovaného poskytovatele chatu a embeddingu LLM. Je důležité, aby tyto klíče byly aktuální a správné, jinak Ai-Assistant nebude fungovat správně.",
     provider: "Poskytovatel LLM",
     providers: {
       azure_openai: {
@@ -1040,7 +1040,7 @@ const TRANSLATIONS = {
       "Toto jsou přihlašovací údaje a nastavení pro vašeho preferovaného poskytovatele modelu přepisu. Je důležité, aby tyto klíče byly aktuální a správné, jinak mediální soubory a audio nebudou přepisovány.",
     provider: "Poskytovatel přepisu",
     "warn-start":
-      "Použití místního modelu whisper na strojích s omezenou RAM nebo CPU může zastavit AnythingLLM při zpracování mediálních souborů.",
+      "Použití místního modelu whisper na strojích s omezenou RAM nebo CPU může zastavit Ai-Assistant při zpracování mediálních souborů.",
     "warn-recommend": "Doporučujeme alespoň 2GB RAM a nahrávat soubory <10Mb.",
     "warn-end": "Vestavěný model se automaticky stáhne při prvním použití.",
   },
@@ -1049,7 +1049,7 @@ const TRANSLATIONS = {
     "desc-start":
       "Při použití LLM, který nativně nepodporuje engine embeddingu - možná budete muset additionally uvést přihlašovací údaje pro embeddingování textu.",
     "desc-end":
-      "Embedding je proces převodu textu na vektory. Tyto přihlašovací údaje jsou nutné k převodu vašich souborů a výzev do formátu, který AnythingLLM může použít ke zpracování.",
+      "Embedding je proces převodu textu na vektory. Tyto přihlašovací údaje jsou nutné k převodu vašich souborů a výzev do formátu, který Ai-Assistant může použít ke zpracování.",
     provider: {
       title: "Poskytovatel embeddingu",
     },
@@ -1075,7 +1075,7 @@ const TRANSLATIONS = {
   vector: {
     title: "Vektorová databáze",
     description:
-      "Toto jsou přihlašovací údaje a nastavení, jak bude vaše instance AnythingLLM fungovat. Je důležité, aby tyto klíče byly aktuální a správné.",
+      "Toto jsou přihlašovací údaje a nastavení, jak bude vaše instance Ai-Assistant fungovat. Je důležité, aby tyto klíče byly aktuální a správné.",
     provider: {
       title: "Poskytovatel vektorové databáze",
       description: "Pro LanceDB není potřeba žádná konfigurace.",
@@ -1124,7 +1124,7 @@ const TRANSLATIONS = {
     password: {
       title: "Ochrana heslem",
       description:
-        "Chraňte svou instanci AnythingLLM heslem. Pokud zapomenete, neexistuje způsob obnovení, proto se ujistěte, že heslo uložíte.",
+        "Chraňte svou instanci Ai-Assistant heslem. Pokud zapomenete, neexistuje způsob obnovení, proto se ujistěte, že heslo uložíte.",
       "password-label": "Heslo instance",
     },
   },
@@ -1142,7 +1142,7 @@ const TRANSLATIONS = {
   privacy: {
     title: "Soukromí a zpracování dat",
     description:
-      "Toto je vaše konfigurace, jak připojené třetí strany a AnythingLLM zpracovávají vaše data.",
+      "Toto je vaše konfigurace, jak připojené třetí strany a Ai-Assistant zpracovávají vaše data.",
     anonymous: "Anonymní telemetrie je povolena",
   },
   connectors: {
@@ -1314,22 +1314,22 @@ const TRANSLATIONS = {
       fetching: "Načítání...",
       "fetch-website": "Stáhnout webovou stránku",
       "privacy-notice":
-        "Tyto soubory budou nahrány na procesor dokumentů běžící na této instanci AnythingLLM. Tyto soubory nejsou odesílány nebo sdíleny s třetí stranou.",
+        "Tyto soubory budou nahrány na procesor dokumentů běžící na této instanci Ai-Assistant. Tyto soubory nejsou odesílány nebo sdíleny s třetí stranou.",
     },
     pinning: {
       what_pinning: "Co je připínání dokumentů?",
       pin_explained_block1:
-        "Když <b>připnete</b> dokument v AnythingLLM, vložíme celý obsah dokumentu do vašeho okna výzvy, aby ho LLM plně pochopil.",
+        "Když <b>připnete</b> dokument v Ai-Assistant, vložíme celý obsah dokumentu do vašeho okna výzvy, aby ho LLM plně pochopil.",
       pin_explained_block2:
         "To funguje nejlépe s <b>modely s velkým kontextem</b> nebo malými soubory, které jsou kritické pro jejich znalostní základ.",
       pin_explained_block3:
-        "Pokud nedostáváte odpovědi, které si přejete od AnythingLLM ve výchozím nastavení, pak připínání je skvělý způsob získání kvalitnějších odpovědí jedním kliknutím.",
+        "Pokud nedostáváte odpovědi, které si přejete od Ai-Assistant ve výchozím nastavení, pak připínání je skvělý způsob získání kvalitnějších odpovědí jedním kliknutím.",
       accept: "OK, rozumím",
     },
     watching: {
       what_watching: "Co dělá sledování dokumentu?",
       watch_explained_block1:
-        "Když <b>sledujete</b> dokument v AnythingLLM, <i>automaticky</i> synchronizujeme obsah dokumentu z jeho původního zdroje v pravidelných intervalech. Tím se automaticky aktualizuje obsah v každém pracovním prostoru, kde je tento soubor spravován.",
+        "Když <b>sledujete</b> dokument v Ai-Assistant, <i>automaticky</i> synchronizujeme obsah dokumentu z jeho původního zdroje v pravidelných intervalech. Tím se automaticky aktualizuje obsah v každém pracovním prostoru, kde je tento soubor spravován.",
       watch_explained_block2:
         "Tato funkce v současné době podporuje onlineový obsah a nebude k dispozici pro ručně nahrané dokumenty.",
       watch_explained_block3_start:
@@ -1492,7 +1492,7 @@ const TRANSLATIONS = {
         edit_description: "Aktualizujte obsah této paměti.",
         label: "Paměť",
         placeholder:
-          "např. Jméno uživatele je Joe, uživatel pracuje na AnythingLLM, atd.",
+          "např. Jméno uživatele je Joe, uživatel pracuje na Ai-Assistant, atd.",
         create: "Vytvořit",
         save: "Uložit",
         cancel: "Zrušit",
@@ -1638,7 +1638,7 @@ const TRANSLATIONS = {
         unauthenticated: {
           title: "Vyžadováno ověření",
           description:
-            "Musíte se ověřit pomocí komunitního centra AnythingLLM před publikováním položek.",
+            "Musíte se ověřit pomocí komunitního centra Ai-Assistant před publikováním položek.",
           button: "Připojit se ke komunitnímu centru",
         },
       },
@@ -1647,7 +1647,7 @@ const TRANSLATIONS = {
   telegram: {
     title: "Bot pro Telegram",
     description:
-      "Propojte svůj instance AnythingLLM s aplikací Telegram, abyste mohli komunikovat se svými pracovními prostory odkudkoli.",
+      "Propojte svůj instance Ai-Assistant s aplikací Telegram, abyste mohli komunikovat se svými pracovními prostory odkudkoli.",
     setup: {
       step1: {
         title: "Krok 1: Vytvořte svého Telegramového robota",

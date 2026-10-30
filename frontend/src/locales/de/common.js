@@ -8,7 +8,7 @@ const TRANSLATIONS = {
     llm: {
       title: "LLM-Einstellung",
       description:
-        "AnythingLLM ist mit vielen LLM-Anbietern kompatibel. Der ausgewählte Dienst wird für die Chats verwendet.",
+        "Ai-Assistant ist mit vielen LLM-Anbietern kompatibel. Der ausgewählte Dienst wird für die Chats verwendet.",
     },
     userSetup: {
       title: "Benutzer Setup",
@@ -35,15 +35,15 @@ const TRANSLATIONS = {
         "Diese Einstellungen können jederzeit in den Einstellungen angepasst werden.",
     },
     survey: {
-      title: "Willkommen bei AnythingLLM",
+      title: "Willkommen bei Ai-Assistant",
       description:
-        "Helfen Sie uns, AnythingLLM an Ihre Bedürfnisse anzupassen. (Optional)",
+        "Helfen Sie uns, Ai-Assistant an Ihre Bedürfnisse anzupassen. (Optional)",
       email: "Wie lautet Ihre E-Mail-Adresse?",
-      useCase: "Wofür möchten Sie AnythingLLM verwenden?",
+      useCase: "Wofür möchten Sie Ai-Assistant verwenden?",
       useCaseWork: "Beruflich",
       useCasePersonal: "Privat",
       useCaseOther: "Sonstiges",
-      comment: "Wie haben Sie von AnythingLLM erfahren?",
+      comment: "Wie haben Sie von Ai-Assistant erfahren?",
       commentPlaceholder:
         "Reddit, Twitter, GitHub, YouTube, etc. – Teilen Sie uns mit, wie Sie uns entdeckt haben!",
       skip: "Umfrage überspringen",
@@ -100,7 +100,7 @@ const TRANSLATIONS = {
     contact: "Support kontaktieren",
     "browser-extension": "Browser-Extension",
     "system-prompt-variables": "Systempromptvariablen",
-    "mobile-app": "AnythingLLM Mobile",
+    "mobile-app": "Ai-Assistant Mobile",
     "community-hub": {
       title: "Community Hub",
       trending: "Neuigkeiten",
@@ -197,7 +197,7 @@ const TRANSLATIONS = {
       add: "Neue Nachricht hinzufügen",
       save: "Nachrichten speichern",
       heading: "Erkläre mir",
-      body: "die Vorteile von AnythingLLM",
+      body: "die Vorteile von Ai-Assistant",
     },
     delete: {
       title: "Workspace löschen",
@@ -825,7 +825,7 @@ const TRANSLATIONS = {
       "intelligent-skill-selection": {
         title: "Intelligente Auswahl von Fähigkeiten",
         description:
-          "Ermöglichen Sie die uneingeschränkte Nutzung von Werkzeugen und reduzieren Sie die Token-Nutzung pro Anfrage um bis zu 80 % – AnythingLLM wählt automatisch die passenden Fähigkeiten für jede Anfrage aus.",
+          "Ermöglichen Sie die uneingeschränkte Nutzung von Werkzeugen und reduzieren Sie die Token-Nutzung pro Anfrage um bis zu 80 % – Ai-Assistant wählt automatisch die passenden Fähigkeiten für jede Anfrage aus.",
         "max-tools": {
           title: "Max Tools",
           description:
@@ -863,12 +863,12 @@ const TRANSLATIONS = {
   customization: {
     interface: {
       title: "UI Einstellungen",
-      description: "Passen Sie die Benutzeroberfläche von AnythingLLM an.",
+      description: "Passen Sie die Benutzeroberfläche von Ai-Assistant an.",
     },
     branding: {
       title: "Branding & Whitelabeling",
       description:
-        "Individualisieren Sie Ihre AnythingLLM-Instanz durch eigenes Branding.",
+        "Individualisieren Sie Ihre Ai-Assistant-Instanz durch eigenes Branding.",
       tabs: {
         identity: "Identität",
         colors: "Farben",
@@ -878,7 +878,7 @@ const TRANSLATIONS = {
     },
     chat: {
       title: "Chat",
-      description: "Passen Sie Ihre Chat-Einstellungen für AnythingLLM an.",
+      description: "Passen Sie Ihre Chat-Einstellungen für Ai-Assistant an.",
       auto_submit: {
         title: "Spracheingaben automatisch senden",
         description:
@@ -993,7 +993,7 @@ const TRANSLATIONS = {
   api: {
     title: "API-Schlüssel",
     description:
-      "API-Schlüssel ermöglichen es dem Besitzer, programmatisch auf diese AnythingLLM-Instanz zuzugreifen und sie zu verwalten.",
+      "API-Schlüssel ermöglichen es dem Besitzer, programmatisch auf diese Ai-Assistant-Instanz zuzugreifen und sie zu verwalten.",
     link: "Lesen Sie die API-Dokumentation",
     generate: "Neuen API-Schlüssel generieren",
     empty: "Keine API-Schlüssel gefunden",
@@ -1007,7 +1007,7 @@ const TRANSLATIONS = {
       close: "Schließen",
       create: "API-Schlüssel erstellen",
       helper:
-        "Nach der Erstellung kann der API-Schlüssel verwendet werden, um programmgesteuert auf diese AnythingLLM-Instanz zuzugreifen und sie zu konfigurieren.",
+        "Nach der Erstellung kann der API-Schlüssel verwendet werden, um programmgesteuert auf diese Ai-Assistant-Instanz zuzugreifen und sie zu konfigurieren.",
       name: {
         label: "Name",
         placeholder: "Produktionsintegration",
@@ -1032,7 +1032,7 @@ const TRANSLATIONS = {
   llm: {
     title: "LLM-Präferenz",
     description:
-      "Dies sind die Anmeldeinformationen und Einstellungen für Ihren bevorzugten LLM-Chat- und Einbettungsanbieter. Es ist wichtig, dass diese Schlüssel aktuell und korrekt sind, sonst wird AnythingLLM nicht richtig funktionieren.",
+      "Dies sind die Anmeldeinformationen und Einstellungen für Ihren bevorzugten LLM-Chat- und Einbettungsanbieter. Es ist wichtig, dass diese Schlüssel aktuell und korrekt sind, sonst wird Ai-Assistant nicht richtig funktionieren.",
     provider: "LLM-Anbieter",
     providers: {
       azure_openai: {
@@ -1054,7 +1054,7 @@ const TRANSLATIONS = {
       "Dies sind die Anmeldeinformationen und Einstellungen für Ihren bevorzugten Transkriptionsmodellanbieter. Es ist wichtig, dass diese Schlüssel aktuell und korrekt sind, sonst werden Mediendateien und Audio nicht transkribiert.",
     provider: "Transkriptionsanbieter",
     "warn-start":
-      "Die Verwendung des lokalen Whisper-Modells auf Maschinen mit begrenztem RAM oder CPU kann AnythingLLM bei der Verarbeitung von Mediendateien zum Stillstand bringen.",
+      "Die Verwendung des lokalen Whisper-Modells auf Maschinen mit begrenztem RAM oder CPU kann Ai-Assistant bei der Verarbeitung von Mediendateien zum Stillstand bringen.",
     "warn-recommend":
       "Wir empfehlen mindestens 2 GB RAM und das Hochladen von Dateien <10 MB.",
     "warn-end":
@@ -1065,7 +1065,7 @@ const TRANSLATIONS = {
     "desc-start":
       "Bei der Verwendung eines LLM, das keine native Unterstützung für eine Einbettungs-Engine bietet, müssen Sie möglicherweise zusätzlich Anmeldeinformationen für die Texteinbettung angeben.",
     "desc-end":
-      "Einbettung ist der Prozess, Text in Vektoren umzuwandeln. Diese Anmeldeinformationen sind erforderlich, um Ihre Dateien und Prompts in ein Format umzuwandeln, das AnythingLLM zur Verarbeitung verwenden kann.",
+      "Einbettung ist der Prozess, Text in Vektoren umzuwandeln. Diese Anmeldeinformationen sind erforderlich, um Ihre Dateien und Prompts in ein Format umzuwandeln, das Ai-Assistant zur Verarbeitung verwenden kann.",
     provider: {
       title: "Einbettungsanbieter",
     },
@@ -1091,7 +1091,7 @@ const TRANSLATIONS = {
   vector: {
     title: "Vektordatenbank",
     description:
-      "Dies sind die Anmeldeinformationen und Einstellungen für die Funktionsweise Ihrer AnythingLLM-Instanz. Es ist wichtig, dass diese Schlüssel aktuell und korrekt sind.",
+      "Dies sind die Anmeldeinformationen und Einstellungen für die Funktionsweise Ihrer Ai-Assistant-Instanz. Es ist wichtig, dass diese Schlüssel aktuell und korrekt sind.",
     provider: {
       title: "Vektordatenbankanbieter",
       description: "Für LanceDB ist keine Konfiguration erforderlich.",
@@ -1136,7 +1136,7 @@ const TRANSLATIONS = {
   privacy: {
     title: "Datenschutz & Datenverarbeitung",
     description:
-      "Dies ist Ihre Konfiguration dafür, wie verbundene Drittanbieter und AnythingLLM Ihre Daten behandeln.",
+      "Dies ist Ihre Konfiguration dafür, wie verbundene Drittanbieter und Ai-Assistant Ihre Daten behandeln.",
     anonymous: "Anonyme Telemetrie aktiviert",
   },
   connectors: {
@@ -1312,7 +1312,7 @@ const TRANSLATIONS = {
       fetching: "Wird abgerufen...",
       "fetch-website": "Website abrufen",
       "privacy-notice":
-        "Diese Dateien werden zum Dokumentenprozessor hochgeladen, der auf dieser AnythingLLM-Instanz läuft. Diese Dateien werden nicht an Dritte gesendet oder geteilt.",
+        "Diese Dateien werden zum Dokumentenprozessor hochgeladen, der auf dieser Ai-Assistant-Instanz läuft. Diese Dateien werden nicht an Dritte gesendet oder geteilt.",
     },
     pinning: {
       what_pinning: "Was bedeutet es Dokumente anzuheften?",
@@ -1491,7 +1491,7 @@ const TRANSLATIONS = {
         edit_description: "Aktualisieren Sie den Inhalt dieses Speichers.",
         label: "Gedächtnis",
         placeholder:
-          "z.B. Benutzername: Joe, Benutzer arbeitet an AnythingLLM, usw.",
+          "z.B. Benutzername: Joe, Benutzer arbeitet an Ai-Assistant, usw.",
         create: "Erstellen",
         save: "Speichern",
         cancel: "Abbrechen",
@@ -1613,7 +1613,7 @@ const TRANSLATIONS = {
         unauthenticated: {
           title: "Benötigte Authentifizierung",
           description:
-            "Sie müssen sich vor der Veröffentlichung von Inhalten über den AnythingLLM Community Hub authentifizieren.",
+            "Sie müssen sich vor der Veröffentlichung von Inhalten über den Ai-Assistant Community Hub authentifizieren.",
           button: "Verbinden Sie sich mit dem Community Hub",
         },
       },
@@ -1667,7 +1667,7 @@ const TRANSLATIONS = {
     password: {
       title: "Passwortschutz",
       description:
-        "Schützen Sie Ihre AnythingLLM-Instanz mit einem Passwort. Wenn Sie dieses vergessen, gibt es keine Wiederherstellungsmethode, also stellen Sie sicher, dass Sie dieses Passwort speichern.",
+        "Schützen Sie Ihre Ai-Assistant-Instanz mit einem Passwort. Wenn Sie dieses vergessen, gibt es keine Wiederherstellungsmethode, also stellen Sie sicher, dass Sie dieses Passwort speichern.",
       "password-label": "Instanzpasswort",
     },
   },

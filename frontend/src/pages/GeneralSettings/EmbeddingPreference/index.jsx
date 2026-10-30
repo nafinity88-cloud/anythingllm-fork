@@ -44,12 +44,12 @@ import ProviderSearchMenu from "@/components/lib/ProviderSearchMenu";
 
 const EMBEDDERS = [
   {
-    name: "AnythingLLM Embedder",
+    name: "Ai-Assistant Embedder",
     value: "native",
     logo: AnythingLLMIcon,
     options: (settings) => <NativeEmbeddingOptions settings={settings} />,
     description:
-      "Use the built-in embedding provider for AnythingLLM. Zero setup!",
+      "Use the built-in embedding provider for Ai-Assistant. Zero setup!",
   },
   {
     name: "OpenAI",

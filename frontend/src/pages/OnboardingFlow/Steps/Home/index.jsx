@@ -2,9 +2,8 @@ import paths from "@/utils/paths";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import useRedirectToHomeOnOnboardingComplete from "@/hooks/useOnboardingComplete";
-import { OnboardingLogoSVG } from "./components/OnboardingLogoSVG";
-import Wordmark from "./wordmark.svg";
-import WordmarkLight from "./wordmark-light.svg";
+import Wordmark from "@/media/logo/bmicorp-wordmark.svg";
+import Logo from "@/media/logo/bmicorp.png";
 
 export default function OnboardingHome() {
   const navigate = useNavigate();
@@ -18,7 +17,7 @@ export default function OnboardingHome() {
         className="absolute inset-0 light:hidden"
         style={{
           background:
-            "radial-gradient(ellipse 160% 100% at 50% 0%, rgba(130, 152, 178, 0.45) 0%, rgba(60, 87, 105, 0.25) 45%, transparent 90%)",
+            "radial-gradient(ellipse 160% 100% at 50% 0%, rgba(181, 132, 58, 0.35) 0%, rgba(91, 62, 31, 0.22) 45%, transparent 90%)",
         }}
       />
       {/* Light mode background gradient */}
@@ -26,26 +25,17 @@ export default function OnboardingHome() {
         className="absolute inset-0 hidden light:block"
         style={{
           background:
-            "radial-gradient(ellipse 160% 100% at 50% 0%, rgba(176, 200, 224, 0.7) 0%, rgba(195, 213, 230, 0.45) 50%, transparent 90%)",
+            "radial-gradient(ellipse 160% 100% at 50% 0%, rgba(236, 212, 166, 0.7) 0%, rgba(248, 236, 211, 0.45) 50%, transparent 90%)",
         }}
       />
 
       <div className="relative z-10 flex justify-center pt-[58px]">
-        <img
-          src={Wordmark}
-          alt="AnythingLLM"
-          className="h-[28px] w-auto light:hidden"
-        />
-        <img
-          src={WordmarkLight}
-          alt="AnythingLLM"
-          className="hidden h-[28px] w-auto light:block"
-        />
+        <img src={Wordmark} alt="BMICorp AI-Assistant" className="h-[40px] w-auto" />
       </div>
 
       <div className="relative z-10 flex-1 flex flex-col items-center justify-center -mt-8">
         <div className="absolute flex items-center justify-center w-full px-4 md:px-0 md:max-w-[852px] md:w-[56%]">
-          <OnboardingLogoSVG />
+          <img src={Logo} alt="" className="w-[180px] md:w-[240px] opacity-30" />
         </div>
 
         <h1 className="relative font-medium text-white light:text-slate-700 text-[64px] md:text-[96px] lg:text-[160px] leading-none tracking-[-0.06em] select-none">

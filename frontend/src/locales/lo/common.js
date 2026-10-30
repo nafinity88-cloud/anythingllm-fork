@@ -8,7 +8,7 @@ const TRANSLATIONS = {
     llm: {
       title: "ການຕັ້ງຄ່າ LLM",
       description:
-        "AnythingLLM ສາມາດເຮັດວຽກຮ່ວມກັບຜູ້ໃຫ້ບໍລິການ LLM ໄດ້ຫຼາຍແຫ່ງ. ນີ້ຈະເປັນບໍລິການທີ່ຈະຈັດການການສົນທະນາ.",
+        "Ai-Assistant ສາມາດເຮັດວຽກຮ່ວມກັບຜູ້ໃຫ້ບໍລິການ LLM ໄດ້ຫຼາຍແຫ່ງ. ນີ້ຈະເປັນບໍລິການທີ່ຈະຈັດການການສົນທະນາ.",
     },
     userSetup: {
       title: "ຕັ້ງຄ່າຜູ້ໃຊ້",
@@ -35,15 +35,15 @@ const TRANSLATIONS = {
         "ການຕັ້ງຄ່າເຫຼົ່ານີ້ສາມາດປ່ຽນແປງໄດ້ທຸກເວລາໃນສ່ວນການຕັ້ງຄ່າ.",
     },
     survey: {
-      title: "ຍິນດີຕ້ອນຮັບສູ່ AnythingLLM",
+      title: "ຍິນດີຕ້ອນຮັບສູ່ Ai-Assistant",
       description:
-        "ຊ່ວຍພວກເຮົາປັບປຸງ AnythingLLM ໃຫ້ກົງກັບຄວາມຕ້ອງການຂອງທ່ານ. (ບໍ່ບັງຄັບ)",
+        "ຊ່ວຍພວກເຮົາປັບປຸງ Ai-Assistant ໃຫ້ກົງກັບຄວາມຕ້ອງການຂອງທ່ານ. (ບໍ່ບັງຄັບ)",
       email: "ອີເມວຂອງທ່ານແມ່ນຫຍັງ?",
-      useCase: "ທ່ານຈະໃຊ້ AnythingLLM ເພື່ອຫຍັງ?",
+      useCase: "ທ່ານຈະໃຊ້ Ai-Assistant ເພື່ອຫຍັງ?",
       useCaseWork: "ສຳລັບວຽກ",
       useCasePersonal: "ສຳລັບສ່ວນຕົວ",
       useCaseOther: "ອື່ນໆ",
-      comment: "ທ່ານຮູ້ຈັກ AnythingLLM ໄດ້ແນວໃດ?",
+      comment: "ທ່ານຮູ້ຈັກ Ai-Assistant ໄດ້ແນວໃດ?",
       commentPlaceholder:
         "Reddit, Twitter, GitHub, YouTube, ແລະ ອື່ນໆ - ບອກໃຫ້ພວກເຮົາຮູ້ວ່າທ່ານຫາພວກເຮົາເຫັນໄດ້ແນວໃດ!",
       skip: "ຂ້າມແບບສຳຫຼວດ",
@@ -115,7 +115,7 @@ const TRANSLATIONS = {
     "experimental-features": "ຟີເຈີທົດລອງ",
     contact: "ຕິດຕໍ່ຝ່າຍຊ່ວຍເຫຼືອ",
     "browser-extension": "ສ່ວນເສີມບຣາວເຊີ",
-    "mobile-app": "AnythingLLM ມືຖື",
+    "mobile-app": "Ai-Assistant ມືຖື",
     channels: "ຊ່ອງທາງການຕິດຕໍ່",
     "available-channels": {
       telegram: "Telegram",
@@ -204,7 +204,7 @@ const TRANSLATIONS = {
       add: "ເພີ່ມຂໍ້ຄວາມໃໝ່",
       save: "ບັນທຶກຂໍ້ຄວາມ",
       heading: "ອະທິບາຍໃຫ້ຂ້ອຍແນ່",
-      body: "ຂໍ້ດີຂອງ AnythingLLM ແມ່ນຫຍັງ",
+      body: "ຂໍ້ດີຂອງ Ai-Assistant ແມ່ນຫຍັງ",
     },
     delete: {
       title: "ລຶບພື້ນທີ່ເຮັດວຽກ",
@@ -774,7 +774,7 @@ const TRANSLATIONS = {
       "intelligent-skill-selection": {
         title: "ການເລືອກທັກສະແບບອັດສະລິຍະ",
         description:
-          "ເປີດໃຊ້ເຄື່ອງມືແບບບໍ່ຈຳກັດ ແລະ ຫຼຸດການໃຊ້ token ໄດ້ເຖິງ 80% — AnythingLLM ຈະເລືອກທັກສະທີ່ເໝາະສົມໃຫ້ໂດຍອັດຕະໂນມັດ.",
+          "ເປີດໃຊ້ເຄື່ອງມືແບບບໍ່ຈຳກັດ ແລະ ຫຼຸດການໃຊ້ token ໄດ້ເຖິງ 80% — Ai-Assistant ຈະເລືອກທັກສະທີ່ເໝາະສົມໃຫ້ໂດຍອັດຕະໂນມັດ.",
         "max-tools": {
           title: "ຈຳນວນເຄື່ອງມືສູງສຸດ",
           description: "ຈຳນວນເຄື່ອງມືສູງສຸດທີ່ຈະເລືອກໃນແຕ່ລະການສອບຖາມ.",
@@ -809,11 +809,11 @@ const TRANSLATIONS = {
   customization: {
     interface: {
       title: "ການຕັ້ງຄ່າ UI",
-      description: "ຕັ້ງຄ່າ UI ຂອງທ່ານສຳລັບ AnythingLLM.",
+      description: "ຕັ້ງຄ່າ UI ຂອງທ່ານສຳລັບ Ai-Assistant.",
     },
     branding: {
       title: "ແບຣນດິງ & Whitelabeling",
-      description: "ປັບແຕ່ງແບຣນຂອງທ່ານເອງໃນ AnythingLLM.",
+      description: "ປັບແຕ່ງແບຣນຂອງທ່ານເອງໃນ Ai-Assistant.",
       tabs: {
         identity: "ເອກະລັກ",
         colors: "ສີ",
@@ -823,7 +823,7 @@ const TRANSLATIONS = {
     },
     chat: {
       title: "ການສົນທະນາ",
-      description: "ຕັ້ງຄ່າການສົນທະນາສຳລັບ AnythingLLM.",
+      description: "ຕັ້ງຄ່າການສົນທະນາສຳລັບ Ai-Assistant.",
       auto_submit: {
         title: "ສົ່ງສຽງອັດຕະໂນມັດ",
         description: "ສົ່ງຂໍ້ມູນສຽງໂດຍອັດຕະໂນມັດຫຼັງຈາກທີ່ມິດໄປໄລຍະໜຶ່ງ",
@@ -858,7 +858,7 @@ const TRANSLATIONS = {
       "display-language": {
         title: "ພາສາທີ່ສະແດງ",
         description:
-          "ເລືອກພາສາທີ່ຈະໃຊ້ໃນ UI ຂອງ AnythingLLM (ເມື່ອມີພາສານັ້ນໃຫ້ເລືອກ).",
+          "ເລືອກພາສາທີ່ຈະໃຊ້ໃນ UI ຂອງ Ai-Assistant (ເມື່ອມີພາສານັ້ນໃຫ້ເລືອກ).",
       },
       logo: {
         title: "ໂລໂກ້ແບຣນ",
@@ -929,7 +929,7 @@ const TRANSLATIONS = {
   api: {
     title: "API Keys",
     description:
-      "API keys ອະນຸຍາດໃຫ້ເຂົ້າເຖິງ ແລະ ຈັດການ AnythingLLM ຜ່ານການຂຽນໂປຣແກຣມ.",
+      "API keys ອະນຸຍາດໃຫ້ເຂົ້າເຖິງ ແລະ ຈັດການ Ai-Assistant ຜ່ານການຂຽນໂປຣແກຣມ.",
     link: "ອ່ານຄູ່ມື API",
     generate: "ສ້າງ API Key ໃໝ່",
     empty: "ບໍ່ພົບ API keys",
@@ -943,7 +943,7 @@ const TRANSLATIONS = {
       close: "ປິດ",
       create: "ສ້າງ API Key",
       helper:
-        "ເມື່ອສ້າງແລ້ວ ສາມາດໃຊ້ API key ເພື່ອເຂົ້າເຖິງລະບົບ AnythingLLM ນີ້ໄດ້.",
+        "ເມື່ອສ້າງແລ້ວ ສາມາດໃຊ້ API key ເພື່ອເຂົ້າເຖິງລະບົບ Ai-Assistant ນີ້ໄດ້.",
       name: {
         label: "ຊື່",
         placeholder: "ຕົວຢ່າງ: ການເຊື່ອມຕໍ່ລະບົບຈິງ",
@@ -967,7 +967,7 @@ const TRANSLATIONS = {
   llm: {
     title: "ການຕັ້ງຄ່າ LLM",
     description:
-      "ນີ້ແມ່ນຂໍ້ມູນ ແລະ ການຕັ້ງຄ່າສຳລັບຜູ້ໃຫ້ບໍລິການ LLM ແລະ embedding ທີ່ທ່ານເລືອກ. ມັນສຳຄັນຫຼາຍທີ່ຂໍ້ມູນເຫຼົ່ານີ້ຕ້ອງຖືກຕ້ອງ ບໍ່ດັ່ງນັ້ນ AnythingLLM ຈະເຮັດວຽກບໍ່ໄດ້.",
+      "ນີ້ແມ່ນຂໍ້ມູນ ແລະ ການຕັ້ງຄ່າສຳລັບຜູ້ໃຫ້ບໍລິການ LLM ແລະ embedding ທີ່ທ່ານເລືອກ. ມັນສຳຄັນຫຼາຍທີ່ຂໍ້ມູນເຫຼົ່ານີ້ຕ້ອງຖືກຕ້ອງ ບໍ່ດັ່ງນັ້ນ Ai-Assistant ຈະເຮັດວຽກບໍ່ໄດ້.",
     provider: "ຜູ້ໃຫ້ບໍລິການ LLM",
     providers: {
       azure_openai: {
@@ -1160,7 +1160,7 @@ const TRANSLATIONS = {
       "ນີ້ແມ່ນຂໍ້ມູນສຳລັບຜູ້ໃຫ້ບໍລິການແບບຈຳລອງຖອດຂໍ້ຄວາມ. ຂໍ້ມູນເຫຼົ່ານີ້ຕ້ອງຖືກຕ້ອງເພື່ອໃຫ້ສາມາດຖອດຂໍ້ຄວາມຈາກໄຟລ໌ສື່ ແລະ ສຽງໄດ້.",
     provider: "ຜູ້ໃຫ້ບໍລິການຖອດຂໍ້ຄວາມ",
     "warn-start":
-      "ການໃຊ້ແບບຈຳລອງ whisper ໃນເຄື່ອງທີ່ມີ RAM ຫຼື CPU ຈຳກັດ ອາດເຮັດໃຫ້ AnythingLLM ເຮັດວຽກຊ້າລົງ.",
+      "ການໃຊ້ແບບຈຳລອງ whisper ໃນເຄື່ອງທີ່ມີ RAM ຫຼື CPU ຈຳກັດ ອາດເຮັດໃຫ້ Ai-Assistant ເຮັດວຽກຊ້າລົງ.",
     "warn-recommend":
       "ແນະນຳໃຫ້ມີ RAM ຢ່າງໜ້ອຍ 2GB ແລະ ອັບໂຫຼດໄຟລ໌ທີ່ມີຂະໜາດ <10Mb.",
     "warn-end": "ແບບຈຳລອງໃນຕົວຈະຖືກດາວໂຫຼດໂດຍອັດຕະໂນມັດເມື່ອໃຊ້ງານຄັ້ງທຳອິດ.",
@@ -1170,7 +1170,7 @@ const TRANSLATIONS = {
     "desc-start":
       "ເມື່ອໃຊ້ LLM ທີ່ບໍ່ຮອງຮັບ embedding engine ໃນຕົວ - ທ່ານອາດຈະຕ້ອງລະບຸຂໍ້ມູນສຳລັບການ embedding ຂໍ້ຄວາມເພີ່ມເຕີມ.",
     "desc-end":
-      "Embedding ແມ່ນຂະບວນການປ່ຽນຂໍ້ຄວາມໃຫ້ເປັນເວກເຕີ. ຂໍ້ມູນເຫຼົ່ານີ້ຈຳເປັນເພື່ອປ່ຽນໄຟລ໌ ແລະ prompt ໃຫ້ເປັນຮູບແບບທີ່ AnythingLLM ສາມາດປະມວນຜົນໄດ້.",
+      "Embedding ແມ່ນຂະບວນການປ່ຽນຂໍ້ຄວາມໃຫ້ເປັນເວກເຕີ. ຂໍ້ມູນເຫຼົ່ານີ້ຈຳເປັນເພື່ອປ່ຽນໄຟລ໌ ແລະ prompt ໃຫ້ເປັນຮູບແບບທີ່ Ai-Assistant ສາມາດປະມວນຜົນໄດ້.",
     provider: {
       title: "ຜູ້ໃຫ້ບໍລິການ Embedding",
     },
@@ -1229,7 +1229,7 @@ const TRANSLATIONS = {
   telegram: {
     title: "Telegram Bot",
     description:
-      "ເຊື່ອມຕໍ່ AnythingLLM ກັບ Telegram ເພື່ອໃຫ້ທ່ານສາມາດສົນທະນາກັບພື້ນທີ່ເຮັດວຽກໄດ້ຈາກທຸກອຸປະກອນ.",
+      "ເຊື່ອມຕໍ່ Ai-Assistant ກັບ Telegram ເພື່ອໃຫ້ທ່ານສາມາດສົນທະນາກັບພື້ນທີ່ເຮັດວຽກໄດ້ຈາກທຸກອຸປະກອນ.",
     setup: {
       step1: {
         title: "ຂັ້ນຕອນທີ 1: ສ້າງ Telegram bot ຂອງທ່ານ",
@@ -1305,7 +1305,7 @@ const TRANSLATIONS = {
     password: {
       title: "ການປ້ອງກັນດ້ວຍລະຫັດຜ່ານ",
       description:
-        "ປົກປ້ອງ AnythingLLM ຂອງທ່ານດ້ວຍລະຫັດຜ່ານ. ຖ້າທ່ານລືມ ຈະບໍ່ມີວິທີກູ້ຄືນ ດັ່ງນັ້ນກະລຸນາບັນທຶກໄວ້ໃຫ້ດີ.",
+        "ປົກປ້ອງ Ai-Assistant ຂອງທ່ານດ້ວຍລະຫັດຜ່ານ. ຖ້າທ່ານລືມ ຈະບໍ່ມີວິທີກູ້ຄືນ ດັ່ງນັ້ນກະລຸນາບັນທຶກໄວ້ໃຫ້ດີ.",
       "password-label": "ລະຫັດຜ່ານລະບົບ",
     },
   },
@@ -1323,7 +1323,7 @@ const TRANSLATIONS = {
   privacy: {
     title: "ຄວາມເປັນສ່ວນຕົວ & ການຈັດການຂໍ້ມູນ",
     description:
-      "ນີ້ແມ່ນການຕັ້ງຄ່າວິທີທີ່ຜູ້ໃຫ້ບໍລິການພາຍນອກ ແລະ AnythingLLM ຈັດການຂໍ້ມູນຂອງທ່ານ.",
+      "ນີ້ແມ່ນການຕັ້ງຄ່າວິທີທີ່ຜູ້ໃຫ້ບໍລິການພາຍນອກ ແລະ Ai-Assistant ຈັດການຂໍ້ມູນຂອງທ່ານ.",
     anonymous: "ເປີດການສົ່ງຂໍ້ມູນການໃຊ້ງານແບບບໍ່ລະບຸຕົວຕົນ (Telemetry)",
   },
   connectors: {
@@ -1479,12 +1479,12 @@ const TRANSLATIONS = {
       fetching: "ກຳລັງດຶງຂໍ້ມູນ...",
       "fetch-website": "ດຶງຂໍ້ມູນເວັບໄຊ",
       "privacy-notice":
-        "ໄຟລ໌ເຫຼົ່ານີ້ຈະຖືກອັບໂຫຼດໄປທີ່ຕົວປະມວນຜົນໃນ AnythingLLM ນີ້. ຂໍ້ມູນຈະບໍ່ຖືກສົ່ງໃຫ້ບຸກຄົນພາຍນອກ.",
+        "ໄຟລ໌ເຫຼົ່ານີ້ຈະຖືກອັບໂຫຼດໄປທີ່ຕົວປະມວນຜົນໃນ Ai-Assistant ນີ້. ຂໍ້ມູນຈະບໍ່ຖືກສົ່ງໃຫ້ບຸກຄົນພາຍນອກ.",
     },
     pinning: {
       what_pinning: "ການປັກໝຸດເອກະສານແມ່ນຫຍັງ?",
       pin_explained_block1:
-        "ເມື່ອທ່ານ <b>ປັກໝຸດ</b> ເອກະສານໃນ AnythingLLM ພວກເຮົາຈະໃສ່ເນື້ອຫາທັງໝົດຂອງເອກະສານເຂົ້າໃນ prompt ເພື່ອໃຫ້ LLM ເຂົ້າໃຈໄດ້ຢ່າງຄົບຖ້ວນ.",
+        "ເມື່ອທ່ານ <b>ປັກໝຸດ</b> ເອກະສານໃນ Ai-Assistant ພວກເຮົາຈະໃສ່ເນື້ອຫາທັງໝົດຂອງເອກະສານເຂົ້າໃນ prompt ເພື່ອໃຫ້ LLM ເຂົ້າໃຈໄດ້ຢ່າງຄົບຖ້ວນ.",
       pin_explained_block2:
         "ສິ່ງນີ້ຈະເຮັດວຽກໄດ້ດີທີ່ສຸດກັບ <b>ແບບຈຳລອງທີ່ມີ context ຂະໜາດໃຫຍ່</b> ຫຼື ໄຟລ໌ນ້ອຍໆທີ່ສຳຄັນ.",
       pin_explained_block3:
@@ -1658,7 +1658,7 @@ const TRANSLATIONS = {
         edit_description: "ອັບເດດເນື້ອຫາຄວາມຈຳນີ້.",
         label: "ຄວາມຈຳ",
         placeholder:
-          "ເຊັ່ນ: ຜູ້ໃຊ້ຊື່ ສົມໄຊ, ຜູ້ໃຊ້ເຮັດວຽກກ່ຽວກັບ AnythingLLM, ແລະ ອື່ນໆ.",
+          "ເຊັ່ນ: ຜູ້ໃຊ້ຊື່ ສົມໄຊ, ຜູ້ໃຊ້ເຮັດວຽກກ່ຽວກັບ Ai-Assistant, ແລະ ອື່ນໆ.",
         create: "ສ້າງ",
         save: "ບັນທຶກ",
         cancel: "ຍົກເລີກ",
@@ -1787,7 +1787,7 @@ const TRANSLATIONS = {
         unauthenticated: {
           title: "ຕ້ອງຢືນຢັນຕົວຕົນ",
           description:
-            "ທ່ານຕ້ອງເຊື່ອມຕໍ່ກັບ AnythingLLM Community Hub ກ່ອນຈະເຜີຍແຜ່ລາຍການໄດ້.",
+            "ທ່ານຕ້ອງເຊື່ອມຕໍ່ກັບ Ai-Assistant Community Hub ກ່ອນຈະເຜີຍແຜ່ລາຍການໄດ້.",
           button: "ເຊື່ອມຕໍ່ກັບ Community Hub",
         },
       },

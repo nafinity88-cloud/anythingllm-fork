@@ -8,7 +8,7 @@ const TRANSLATIONS = {
     llm: {
       title: "LLM beállítás",
       description:
-        "Az AnythingLLM számos LLM-szolgáltatóval képes együttműködni. Ez lesz a csevegést kezelő szolgáltatás.",
+        "Az Ai-Assistant számos LLM-szolgáltatóval képes együttműködni. Ez lesz a csevegést kezelő szolgáltatás.",
     },
     userSetup: {
       title: "Felhasználói beállítások",
@@ -36,15 +36,15 @@ const TRANSLATIONS = {
         "Ezek a beállítások bármikor módosíthatók a beállításokban.",
     },
     survey: {
-      title: "Üdvözli az AnythingLLM",
+      title: "Üdvözli az Ai-Assistant",
       description:
-        "Segítsen nekünk az AnythingLLM-et az Ön igényeihez igazítani. Nem kötelező.",
+        "Segítsen nekünk az Ai-Assistant-et az Ön igényeihez igazítani. Nem kötelező.",
       email: "Mi az e-mail-címe?",
-      useCase: "Mire fogja használni az AnythingLLM-et?",
+      useCase: "Mire fogja használni az Ai-Assistant-et?",
       useCaseWork: "Munkára",
       useCasePersonal: "Személyes használatra",
       useCaseOther: "Egyéb",
-      comment: "Honnan hallott az AnythingLLM-ről?",
+      comment: "Honnan hallott az Ai-Assistant-ről?",
       commentPlaceholder:
         "Reddit, Twitter, GitHub, YouTube stb. – Ossza meg velünk, hogyan talált ránk!",
       skip: "Kérdőív kihagyása",
@@ -117,7 +117,7 @@ const TRANSLATIONS = {
     "experimental-features": "Kísérleti funkciók",
     contact: "Kapcsolat a támogatással",
     "browser-extension": "Böngészőbővítmény",
-    "mobile-app": "AnythingLLM Mobile",
+    "mobile-app": "Ai-Assistant Mobile",
     channels: "Csatornák",
     "available-channels": {
       telegram: "Telegram",
@@ -205,7 +205,7 @@ const TRANSLATIONS = {
       add: "Új üzenet hozzáadása",
       save: "Üzenetek mentése",
       heading: "Magyarázd el nekem",
-      body: "az AnythingLLM előnyeit",
+      body: "az Ai-Assistant előnyeit",
     },
     delete: {
       title: "Munkaterület törlése",
@@ -811,7 +811,7 @@ const TRANSLATIONS = {
       "intelligent-skill-selection": {
         title: "Intelligens képességválasztás",
         description:
-          "Korlátlan számú eszköz, akár 80%-kal kevesebb tokenfelhasználás lekérdezésenként – az AnythingLLM minden prompthoz automatikusan kiválasztja a megfelelő képességeket.",
+          "Korlátlan számú eszköz, akár 80%-kal kevesebb tokenfelhasználás lekérdezésenként – az Ai-Assistant minden prompthoz automatikusan kiválasztja a megfelelő képességeket.",
         "max-tools": {
           title: "Eszközök maximális száma",
           description:
@@ -848,11 +848,11 @@ const TRANSLATIONS = {
   customization: {
     interface: {
       title: "Felület beállításai",
-      description: "Az AnythingLLM felületének beállításai.",
+      description: "Az Ai-Assistant felületének beállításai.",
     },
     branding: {
       title: "Arculat és egyedi márkázás",
-      description: "Az AnythingLLM-példány egyedi arculattal való ellátása.",
+      description: "Az Ai-Assistant-példány egyedi arculattal való ellátása.",
       tabs: {
         identity: "Identitás",
         colors: "Színek",
@@ -862,7 +862,7 @@ const TRANSLATIONS = {
     },
     chat: {
       title: "Csevegés",
-      description: "Az AnythingLLM csevegési beállításai.",
+      description: "Az Ai-Assistant csevegési beállításai.",
       auto_submit: {
         title: "Hangbevitel automatikus elküldése",
         description: "A hangbevitel automatikus elküldése egy rövid csend után",
@@ -904,7 +904,7 @@ const TRANSLATIONS = {
       "display-language": {
         title: "Megjelenítési nyelv",
         description:
-          "Válassza ki, milyen nyelven jelenjen meg az AnythingLLM felülete – ha elérhető fordítás.",
+          "Válassza ki, milyen nyelven jelenjen meg az Ai-Assistant felülete – ha elérhető fordítás.",
       },
       logo: {
         title: "Logó",
@@ -975,7 +975,7 @@ const TRANSLATIONS = {
   api: {
     title: "API-kulcsok",
     description:
-      "Az API-kulcsok birtokosa programozottan érheti el és kezelheti ezt az AnythingLLM-példányt.",
+      "Az API-kulcsok birtokosa programozottan érheti el és kezelheti ezt az Ai-Assistant-példányt.",
     link: "API-dokumentáció megtekintése",
     generate: "Új API-kulcs létrehozása",
     empty: "Nem található API-kulcs",
@@ -989,7 +989,7 @@ const TRANSLATIONS = {
       close: "Bezárás",
       create: "API-kulcs létrehozása",
       helper:
-        "Létrehozás után az API-kulccsal programozottan érhető el és konfigurálható ez az AnythingLLM-példány.",
+        "Létrehozás után az API-kulccsal programozottan érhető el és konfigurálható ez az Ai-Assistant-példány.",
       name: {
         label: "Név",
         placeholder: "Éles integráció",
@@ -1014,7 +1014,7 @@ const TRANSLATIONS = {
   llm: {
     title: "LLM beállítás",
     description:
-      "Ezek a választott LLM csevegő- és beágyazási szolgáltató hitelesítő adatai és beállításai. Fontos, hogy a kulcsok érvényesek és helyesek legyenek, különben az AnythingLLM nem fog megfelelően működni.",
+      "Ezek a választott LLM csevegő- és beágyazási szolgáltató hitelesítő adatai és beállításai. Fontos, hogy a kulcsok érvényesek és helyesek legyenek, különben az Ai-Assistant nem fog megfelelően működni.",
     provider: "LLM-szolgáltató",
     providers: {
       azure_openai: {
@@ -1214,7 +1214,7 @@ const TRANSLATIONS = {
       "Ezek a választott átiratmodell-szolgáltató hitelesítő adatai és beállításai. Fontos, hogy a kulcsok érvényesek és helyesek legyenek, különben a médiafájlok és hangfelvételek átirata nem készül el.",
     provider: "Átirat-szolgáltató",
     "warn-start":
-      "A helyi Whisper-modell használata kevés RAM-mal vagy gyenge CPU-val rendelkező gépeken a médiafájlok feldolgozásakor megakaszthatja az AnythingLLM-et.",
+      "A helyi Whisper-modell használata kevés RAM-mal vagy gyenge CPU-val rendelkező gépeken a médiafájlok feldolgozásakor megakaszthatja az Ai-Assistant-et.",
     "warn-recommend":
       "Legalább 2 GB RAM és 10 MB-nál kisebb feltöltött fájlok ajánlottak.",
     "warn-end":
@@ -1225,7 +1225,7 @@ const TRANSLATIONS = {
     "desc-start":
       "Ha olyan LLM-et használ, amely natívan nem támogat beágyazómotort, előfordulhat, hogy külön hitelesítő adatokat kell megadnia a szöveg beágyazásához.",
     "desc-end":
-      "A beágyazás a szöveg vektorokká alakításának folyamata. Ezek a hitelesítő adatok szükségesek ahhoz, hogy a fájlok és promptok az AnythingLLM által feldolgozható formátumba kerüljenek.",
+      "A beágyazás a szöveg vektorokká alakításának folyamata. Ezek a hitelesítő adatok szükségesek ahhoz, hogy a fájlok és promptok az Ai-Assistant által feldolgozható formátumba kerüljenek.",
     provider: {
       title: "Beágyazási szolgáltató",
     },
@@ -1268,7 +1268,7 @@ const TRANSLATIONS = {
   vector: {
     title: "Vektoradatbázis",
     description:
-      "Ezek az AnythingLLM-példány működését meghatározó hitelesítő adatok és beállítások. Fontos, hogy a kulcsok érvényesek és helyesek legyenek.",
+      "Ezek az Ai-Assistant-példány működését meghatározó hitelesítő adatok és beállítások. Fontos, hogy a kulcsok érvényesek és helyesek legyenek.",
     provider: {
       title: "Vektoradatbázis-szolgáltató",
       description: "A LanceDB-hez nincs szükség konfigurációra.",
@@ -1302,7 +1302,7 @@ const TRANSLATIONS = {
   telegram: {
     title: "Telegram-bot",
     description:
-      "Csatlakoztassa AnythingLLM-példányát a Telegramhoz, hogy bármilyen eszközről csevegni tudjon a munkaterületeivel.",
+      "Csatlakoztassa Ai-Assistant-példányát a Telegramhoz, hogy bármilyen eszközről csevegni tudjon a munkaterületeivel.",
     setup: {
       step1: {
         title: "1. lépés: Telegram-bot létrehozása",
@@ -1383,7 +1383,7 @@ const TRANSLATIONS = {
     password: {
       title: "Jelszavas védelem",
       description:
-        "Védje AnythingLLM-példányát jelszóval. Ha elfelejti, nincs mód a visszaállítására, ezért mindenképp mentse el ezt a jelszót.",
+        "Védje Ai-Assistant-példányát jelszóval. Ha elfelejti, nincs mód a visszaállítására, ezért mindenképp mentse el ezt a jelszót.",
       "password-label": "Példány jelszava",
     },
   },
@@ -1401,7 +1401,7 @@ const TRANSLATIONS = {
   privacy: {
     title: "Adatvédelem és adatkezelés",
     description:
-      "Itt látható, hogyan kezelik adatait a csatlakoztatott külső szolgáltatók és az AnythingLLM.",
+      "Itt látható, hogyan kezelik adatait a csatlakoztatott külső szolgáltatók és az Ai-Assistant.",
     anonymous: "Névtelen telemetria bekapcsolva",
   },
   connectors: {
@@ -1600,22 +1600,22 @@ const TRANSLATIONS = {
       fetching: "Lekérés...",
       "fetch-website": "Weboldal lekérése",
       "privacy-notice":
-        "A fájlok az ezen az AnythingLLM-példányon futó dokumentumfeldolgozóba kerülnek feltöltésre. A fájlokat nem küldjük el és nem osztjuk meg harmadik féllel.",
+        "A fájlok az ezen az Ai-Assistant-példányon futó dokumentumfeldolgozóba kerülnek feltöltésre. A fájlokat nem küldjük el és nem osztjuk meg harmadik féllel.",
     },
     pinning: {
       what_pinning: "Mit jelent a dokumentum rögzítése?",
       pin_explained_block1:
-        "Ha az AnythingLLM-ben <b>rögzít</b> egy dokumentumot, annak teljes tartalmát beillesztjük a promptba, hogy az LLM teljes egészében értelmezhesse.",
+        "Ha az Ai-Assistant-ben <b>rögzít</b> egy dokumentumot, annak teljes tartalmát beillesztjük a promptba, hogy az LLM teljes egészében értelmezhesse.",
       pin_explained_block2:
         "Ez <b>nagy kontextusú modellekkel</b>, illetve a tudásbázis szempontjából kulcsfontosságú kis fájlokkal működik a legjobban.",
       pin_explained_block3:
-        "Ha alapbeállítással nem kapja meg a kívánt válaszokat az AnythingLLM-től, a rögzítéssel egy kattintással jobb minőségű válaszokat kaphat.",
+        "Ha alapbeállítással nem kapja meg a kívánt válaszokat az Ai-Assistant-től, a rögzítéssel egy kattintással jobb minőségű válaszokat kaphat.",
       accept: "Rendben, értem",
     },
     watching: {
       what_watching: "Mit jelent a dokumentum figyelése?",
       watch_explained_block1:
-        "Ha az AnythingLLM-ben <b>figyel</b> egy dokumentumot, annak tartalmát rendszeres időközönként <i>automatikusan</i> szinkronizáljuk az eredeti forrásból. Ez minden olyan munkaterületen automatikusan frissíti a tartalmat, ahol a fájl szerepel.",
+        "Ha az Ai-Assistant-ben <b>figyel</b> egy dokumentumot, annak tartalmát rendszeres időközönként <i>automatikusan</i> szinkronizáljuk az eredeti forrásból. Ez minden olyan munkaterületen automatikusan frissíti a tartalmat, ahol a fájl szerepel.",
       watch_explained_block2:
         "Ez a funkció jelenleg online tartalmakat támogat, kézzel feltöltött dokumentumokhoz nem érhető el.",
       watch_explained_block3_start: "A figyelt dokumentumokat a(z) ",
@@ -1766,7 +1766,7 @@ const TRANSLATIONS = {
         edit_description: "Az emlék tartalmának frissítése.",
         label: "Emlék",
         placeholder:
-          "pl. A felhasználó neve József, a felhasználó az AnythingLLM-en dolgozik stb.",
+          "pl. A felhasználó neve József, a felhasználó az Ai-Assistant-en dolgozik stb.",
         create: "Létrehozás",
         save: "Mentés",
         cancel: "Mégse",
@@ -1899,7 +1899,7 @@ const TRANSLATIONS = {
         unauthenticated: {
           title: "Hitelesítés szükséges",
           description:
-            "Elemek közzététele előtt hitelesítenie kell magát az AnythingLLM közösségi központban.",
+            "Elemek közzététele előtt hitelesítenie kell magát az Ai-Assistant közösségi központban.",
           button: "Csatlakozás a közösségi központhoz",
         },
       },

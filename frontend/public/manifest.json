@@ -1,6 +1,6 @@
 {
-  "name": "AnythingLLM",
-  "short_name": "AnythingLLM",
+  "name": "BMICorp AI-Assistant",
+  "short_name": "BMICorp AI-Assistant",
   "display": "standalone",
   "orientation": "portrait",
   "start_url": "/",
