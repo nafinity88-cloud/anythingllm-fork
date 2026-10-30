@@ -1,0 +1,306 @@
+[
+  {
+    "id": 1,
+    "key": "BMI_RAPID",
+    "publisher": "BMI",
+    "title": "Rapid test HEALGEN",
+    "url": "https://bintangmonoindonesia.com/categories/infectious-disease-healgen/",
+    "note": "Katalog perusahaan; menu yang dipublikasikan."
+  },
+  {
+    "id": 2,
+    "key": "BMI_TOX",
+    "publisher": "BMI",
+    "title": "Toxicology HEALGEN",
+    "url": "https://bintangmonoindonesia.com/categories/toxicology-healgen/",
+    "note": "Panel 5, 6 dan 7 parameter; spesimen perlu diperiksa per SKU."
+  },
+  {
+    "id": 3,
+    "key": "BMI_FIA",
+    "publisher": "BMI",
+    "title": "Fluorescence Immunoassay Analyzer",
+    "url": "https://bintangmonoindonesia.com/categories/fluorescence-immunoassay-analyzer/",
+    "note": "Mencantumkan MONO X dan Mono Hba1c."
+  },
+  {
+    "id": 4,
+    "key": "BMI_NEW",
+    "publisher": "BMI",
+    "title": "Prinsip kerja dan jenis FIA",
+    "url": "https://bintangmonoindonesia.com/fluorescence-immunoassay-analyzer-prinsip-kerja-jenis/",
+    "note": "Artikel 1 September 2026 menyebut Healgen OG-G200; diperoleh melalui indeks pencarian, akses langsung gagal."
+  },
+  {
+    "id": 5,
+    "key": "BMI_TUBE",
+    "publisher": "BMI",
+    "title": "Blood Collection Tube",
+    "url": "https://bintangmonoindonesia.com/categories/blood-collection-tube/",
+    "note": "Daftar tabung PET dan glass; tidak menetapkan stok aktif."
+  },
+  {
+    "id": 6,
+    "key": "BMI_LINK",
+    "publisher": "LinkedIn BMI",
+    "title": "Profil dan merek perusahaan",
+    "url": "https://id.linkedin.com/company/pt-bintang-mono-indonesia",
+    "note": "Kanal perusahaan; mengaitkan MONOTES dengan portofolio IVD."
+  },
+  {
+    "id": 7,
+    "key": "ZOE",
+    "publisher": "Zoe Pelita Nusantara",
+    "title": "About Us",
+    "url": "https://zoe.id/about-us/",
+    "note": "Klaim perusahaan tentang Medquest Group, SD Biosensor pada kanal tender pemerintah, serta Boditech sejak Desember 2020."
+  },
+  {
+    "id": 8,
+    "key": "MEDQUEST",
+    "publisher": "Medquest Jaya Global",
+    "title": "Office and Warehouses",
+    "url": "https://medquest.co.id/contact-us/",
+    "note": "Lokasi layanan teknis dan gudang yang dipublikasikan."
+  },
+  {
+    "id": 9,
+    "key": "EXXEL_W",
+    "publisher": "Exxel Utama",
+    "title": "Portofolio Wondfo",
+    "url": "https://exxelutama.com/brands/wondfo/",
+    "note": "Katalog lokal; rapid test dengue, FIA Meter Plus dan III Plus."
+  },
+  {
+    "id": 10,
+    "key": "EXXEL_FIA",
+    "publisher": "Exxel Utama",
+    "title": "WONDFO FIA Meter Plus",
+    "url": "https://exxelutama.com/product/wondfo-fia-meter-plus/",
+    "note": "Keterangan alat dan reagen khusus Wondfo; bukan verifikasi kontrak eksklusif."
+  },
+  {
+    "id": 11,
+    "key": "EXXEL",
+    "publisher": "Exxel Utama",
+    "title": "Home",
+    "url": "https://exxelutama.com/",
+    "note": "Profil kanal pelanggan swasta dan pemerintah serta testimoni terpilih perusahaan."
+  },
+  {
+    "id": 12,
+    "key": "BIOCARE_INF",
+    "publisher": "Biocare Sejahtera",
+    "title": "Rapid Test Infectious Disease",
+    "url": "https://www.biocare.co.id/infectious-disease",
+    "note": "Katalog lokal penyakit infeksi, termasuk combo 4."
+  },
+  {
+    "id": 13,
+    "key": "BIOCARE_TOX",
+    "publisher": "Biocare Sejahtera",
+    "title": "Drugs of Abuse",
+    "url": "https://www.biocare.co.id/drug-abuse",
+    "note": "Format strip, device, panel dan cup."
+  },
+  {
+    "id": 14,
+    "key": "BIOCARE",
+    "publisher": "Biocare Sejahtera",
+    "title": "Home",
+    "url": "https://www.biocare.co.id/",
+    "note": "Kanal pemasaran dan tautan Inaproc; transaksi katalog tidak diverifikasi."
+  },
+  {
+    "id": 15,
+    "key": "ARKAN_R",
+    "publisher": "Arkan Medical",
+    "title": "Rapid Test Kit",
+    "url": "https://arkanmedical.id/rapid-test-kit/",
+    "note": "Daftar HBsAg, HIV, sifilis dan dengue."
+  },
+  {
+    "id": 16,
+    "key": "ARKAN_T",
+    "publisher": "Arkan Medical",
+    "title": "Blood Collection Tube",
+    "url": "https://arkanmedical.id/blood-coll-tube/",
+    "note": "Daftar aditif dan micro tube."
+  },
+  {
+    "id": 17,
+    "key": "ARKAN_CERT",
+    "publisher": "Arkan Medical",
+    "title": "Sertifikasi",
+    "url": "https://arkanmedical.id/sertification/",
+    "note": "Dokumen dan nomor AKD yang ditampilkan perusahaan; status aktif serta nilai TKDN tidak diaudit."
+  },
+  {
+    "id": 18,
+    "key": "ARKAN_K2",
+    "publisher": "Arkan Medical",
+    "title": "K2 EDTA",
+    "url": "https://arkanmedical.id/k2-edta/",
+    "note": "Ukuran dan volume 2–10 ml. Heading K3 pada bagian atas berbeda dari isi K2; cocokkan SKU dan IFU."
+  },
+  {
+    "id": 19,
+    "key": "ABB_LOC",
+    "publisher": "Abbott Point of Care",
+    "title": "Locations Indonesia",
+    "url": "https://www.globalpointofcare.abbott/nz/en/about/locations.html",
+    "note": "Mencantumkan PT Alere Health sebagai kantor Indonesia."
+  },
+  {
+    "id": 20,
+    "key": "ABB_DENGUE",
+    "publisher": "Abbott Point of Care",
+    "title": "Bioline Dengue Duo",
+    "url": "https://www.globalpointofcare.abbott/ww/en/product-details/bioline-dengue-duo-ns1-ag-ab-combo.html",
+    "note": "Produk global; halaman menyatakan tidak tersedia di semua negara."
+  },
+  {
+    "id": 21,
+    "key": "ABB_DUO",
+    "publisher": "Abbott Point of Care",
+    "title": "Bioline HIV Syphilis Duo",
+    "url": "https://www.globalpointofcare.abbott/ww/en/product-details/bioline-hiv-syphilis-duo.html",
+    "note": "Produk global; ketersediaan dan izin Indonesia per SKU perlu dikonfirmasi."
+  },
+  {
+    "id": 22,
+    "key": "JPA",
+    "publisher": "Jaya Prima Alkatra",
+    "title": "Diagnostic In Vitro",
+    "url": "https://jp-alkatra.com/product-category/diagnostic-in-vitro/",
+    "note": "Getein 1160 dan 1180 tercantum pada indeks situs; akses langsung timeout."
+  },
+  {
+    "id": 23,
+    "key": "JPA_2026",
+    "publisher": "Jaya Prima Alkatra",
+    "title": "Mid Year Meeting 2026",
+    "url": "https://jp-alkatra.com/mid-year-meeting-pt-jaya-prima-alkatra-2026-membangun-sinergi-dan-menyusun-strategi-semester-kedua/",
+    "note": "Pelatihan Getein 1160 dan 1180 pada 16 Juli 2026 menurut artikel perusahaan; konten indeks."
+  },
+  {
+    "id": 24,
+    "key": "GETEIN",
+    "publisher": "Getein",
+    "title": "Getein 1160",
+    "url": "https://www.getein.com/getein-1160-immunofluorescence-quantitative-analyzer_p140.html",
+    "note": "Produsen; empat kanal, 3–15 menit, LIS/HIS. Ketersediaan menu Indonesia belum diverifikasi."
+  },
+  {
+    "id": 25,
+    "key": "ICHROMA",
+    "publisher": "Cahya Intan Medika",
+    "title": "ICHROMA II",
+    "url": "https://ptcahyaintanmedika.co.id/product/ichroma-ii/",
+    "note": "Penjual lokal; menu, LIS/HIS dan klaim kapasitas maksimum 30 tes per jam; bukan jaminan hasil lapangan."
+  },
+  {
+    "id": 26,
+    "key": "WONDFO",
+    "publisher": "Wondfo",
+    "title": "Finecare FIA Meter Plus FS113",
+    "url": "https://en.wondfo.com/vancheerfile/files/2024/6/20240605064715049.pdf",
+    "note": "Brosur resmi dua halaman; halaman 1 diperiksa visual. HbA1c W207 10 mikroliter, lima menit, 4–14,5 persen. Catatan versi: metadata PDF menyebut April 2024."
+  },
+  {
+    "id": 27,
+    "key": "HEALGEN",
+    "publisher": "Healgen",
+    "title": "Fluorescent Immunoassay Analyzer OGG200",
+    "url": "https://healgen.com/human-health/benchtop-analyzers/fluorescent-immunoassay-analyzer-og-g200/",
+    "note": "Produsen global; menu, keluaran dan penyimpanan hasil. Ada inkonsistensi pada beberapa baris menu; rujuk IFU final."
+  },
+  {
+    "id": 28,
+    "key": "SABA_PRINCIPAL",
+    "publisher": "Greiner Bio One",
+    "title": "Subsidiaries and Distributors Indonesia",
+    "url": "https://www.gbo.com/en-us/company/subsidiaries-distributors",
+    "note": "Prinsipal mencantumkan PT Saba Indomedika sebagai distributor Indonesia."
+  },
+  {
+    "id": 29,
+    "key": "SABA_SERUM",
+    "publisher": "Saba Indomedika",
+    "title": "Serum Separator",
+    "url": "https://sabaindomedika.id/serum-separator/",
+    "note": "Katalog VACUETTE; konten indeks, akses langsung timeout."
+  },
+  {
+    "id": 30,
+    "key": "ITAMA",
+    "publisher": "Itama Ranoraya",
+    "title": "BD Tabung",
+    "url": "https://itama.co.id/id/products/bd-2/",
+    "note": "Halaman lokal BD Vacutainer, tabung, jarum dan aksesori."
+  },
+  {
+    "id": 31,
+    "key": "BD",
+    "publisher": "BD melalui situs Itama",
+    "title": "Brochure BD Vacutainer",
+    "url": "https://itama.co.id/wp-content/uploads/2021/11/Brochure-BD-Vacutainer.pdf",
+    "note": "Brosur tiga halaman; seluruh halaman diperiksa visual. Kode, aditif, material dan volume tersedia; dokumen diunggah pada jalur 2021."
+  },
+  {
+    "id": 32,
+    "key": "ONEMED",
+    "publisher": "Jayamas Medica Industri",
+    "title": "OneMed",
+    "url": "https://www.onemed.co.id/",
+    "note": "Perusahaan menyebut OneMed diproduksi PT Jayamas Medica Industri Tbk."
+  },
+  {
+    "id": 33,
+    "key": "ONEMED_CAT",
+    "publisher": "OneMed",
+    "title": "Biotechnology and Laboratory",
+    "url": "https://www.onemed.co.id/categories?category=biotechnology-and-laboratory",
+    "note": "Kategori resmi menyebut blood collection tube."
+  },
+  {
+    "id": 34,
+    "key": "ONEMED_CHANNEL",
+    "publisher": "OneMed",
+    "title": "Store and Marketplace",
+    "url": "https://www.onemed.co.id/marketplace",
+    "note": "Lokasi toko dan jalur daring resmi; tidak mengukur cakupan penjualan tiap SKU."
+  },
+  {
+    "id": 35,
+    "key": "LABMART",
+    "publisher": "LabMart",
+    "title": "Vaculab EDTA K3 3 ml Glass",
+    "url": "https://labmart.id/product/tabung-darah-vaculab-edta-k3-3ml-3cc-glass/",
+    "note": "Penjual menampilkan Rp90.000; pembaruan harga tertulis 28 Mei 2024. Isi kemasan dan pajak tidak cukup jelas pada halaman."
+  },
+  {
+    "id": 36,
+    "key": "CAKRA",
+    "publisher": "Cakra Medika Utama",
+    "title": "Home dan principal",
+    "url": "https://cakramedikautama.com/",
+    "note": "Situs juga mengomunikasikan ichroma dan klaim eksklusif; potensi informasi historis atau perbedaan kanal perlu diklarifikasi."
+  },
+  {
+    "id": 37,
+    "key": "ITAMA_ABOUT",
+    "publisher": "Itama Ranoraya",
+    "title": "Tentang Kami",
+    "url": "https://itama.co.id/id/about/",
+    "note": "Profil kemitraan dan target rumah sakit, klinik, swasta serta pemerintah."
+  },
+  {
+    "id": 38,
+    "key": "BMI_ORIENT",
+    "publisher": "BMI",
+    "title": "Infectious Disease Orient Gene",
+    "url": "https://bintangmonoindonesia.com/categories/infectious-disease-orient-gene/",
+    "note": "Pembanding katalog rapid test ORIENT GENE."
+  }
+]

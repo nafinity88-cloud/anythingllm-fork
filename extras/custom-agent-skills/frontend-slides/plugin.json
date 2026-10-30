@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/refs/heads/master/server/utils/agents/imported-manifest.schema.json",
+  "active": true,
+  "hubId": "frontend-slides",
+  "name": "Frontend Slides",
+  "schema": "skill-1.0.0",
+  "version": "1.0.0",
+  "description": "Generates a polished single-file HTML slide deck (inline CSS/JS, keyboard navigation, 16:9, print-friendly) from a title and slide outline in one of 6 curated visual styles. Use when the user asks for a pitch deck, presentation, or slideshow. Save the returned HTML with the save-files skill.",
+  "author": "BMI AI Assistant",
+  "author_url": "https://github.com/zarazhangrui/frontend-slides",
+  "license": "MIT",
+  "examples": [
+    {
+      "prompt": "Make a pitch deck for my AI startup",
+      "call": "{\"title\": \"Acme AI — Seed Pitch\", \"theme\": \"bold-signal\", \"slides\": \"[{\\\"heading\\\": \\\"The problem\\\", \\\"bullets\\\": [\\\"Teams drown in docs\\\", \\\"Search misses context\\\"]}]\"}"
+    },
+    {
+      "prompt": "Create a team update presentation in a light editorial style",
+      "call": "{\"title\": \"Q3 Team Update\", \"theme\": \"notebook-tabs\", \"slides\": \"[{\\\"heading\\\": \\\"Wins\\\", \\\"bullets\\\": [\\\"Shipped v2\\\", \\\"NPS up 12 pts\\\"]}]\"}"
+    }
+  ],
+  "entrypoint": {
+    "file": "handler.js",
+    "params": {
+      "title": {
+        "description": "Deck title shown on the cover slide. Required.",
+        "type": "string"
+      },
+      "slides": {
+        "description": "JSON array of slide objects: [{\"heading\": \"...\", \"bullets\": [\"...\", \"...\"], \"kicker\": \"optional eyebrow\"}]. 1-30 slides. Required.",
+        "type": "string"
+      },
+      "theme": {
+        "description": "Visual style: bold-signal (dark, high-impact), electric-studio (clean split), notebook-tabs (editorial paper), split-pastel (playful), terminal-green (developer), swiss-modern (minimal). Default bold-signal.",
+        "type": "string"
+      },
+      "author": {
+        "description": "Presenter or company name shown on the cover. Optional.",
+        "type": "string"
+      }
+    }
+  },
+  "imported": true
+}

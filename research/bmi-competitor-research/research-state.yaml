@@ -1,0 +1,21 @@
+subject: BMI competitor research
+as_of: 2026-10-30
+status: complete
+method: autoresearch adapted to iterative public-source company research
+scope: rapid tests FIA HbA1c analyzers and blood collection tubes in Indonesia
+source_entries: 38
+report_pages: 17
+comparison_groups: 9
+output: to_human/Riset Mendalam Kompetitor BMI.docx
+verification:
+  - local company and principal pages differentiated
+  - official Wondfo brochure page 1 inspected visually
+  - BD brochure all 3 pages inspected visually
+  - all 17 report pages rendered and visually inspected
+  - 38 external hyperlinks and no unresolved citation placeholders
+  - hypothetical cost calculations independently checked
+limitations:
+  - no matched current distributor quotations
+  - no market shares or installed base verified
+  - active authorizations and per-SKU registrations require further verification
+  - Abbott global models require local availability confirmation

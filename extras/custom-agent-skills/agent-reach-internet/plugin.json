@@ -1,0 +1,61 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/refs/heads/master/server/utils/agents/imported-manifest.schema.json",
+  "active": true,
+  "hubId": "agent-reach-internet",
+  "name": "Agent Reach Internet Search",
+  "schema": "skill-1.0.0",
+  "version": "1.0.0",
+  "description": "Searches and reads the platforms AnythingLLM's built-in browsing cannot reach: Bilibili, YouTube transcripts, V2EX, GitHub, Reddit, X/Twitter, LinkedIn, Xiaohongshu, Xueqiu stocks, Boss jobs, Xiaoyuzhou podcasts, Facebook, Instagram. Runs the local agent-reach CLI. Use when the user asks to search or read those platforms.",
+  "author": "BMI AI Assistant",
+  "author_url": "https://github.com/Panniantong/Agent-Reach",
+  "license": "MIT",
+  "setup_args": {
+    "AGENT_REACH_BIN": {
+      "type": "string",
+      "required": false,
+      "input": {
+        "type": "text",
+        "default": "agent-reach",
+        "placeholder": "agent-reach or /full/path/to/agent-reach",
+        "hint": "Binary name or absolute path of the agent-reach CLI on the server running AnythingLLM."
+      },
+      "value": "agent-reach"
+    }
+  },
+  "examples": [
+    {
+      "prompt": "Search Bilibili for videos about LLMs",
+      "call": "{\"channel\": \"bilibili\", \"action\": \"search\", \"query\": \"大模型\"}"
+    },
+    {
+      "prompt": "Read this V2EX thread",
+      "call": "{\"channel\": \"read\", \"url\": \"https://www.v2ex.com/t/123456\"}"
+    },
+    {
+      "prompt": "Search GitHub for RAG projects",
+      "call": "{\"channel\": \"github\", \"action\": \"search\", \"query\": \"RAG\"}"
+    }
+  ],
+  "entrypoint": {
+    "file": "handler.js",
+    "params": {
+      "channel": {
+        "description": "Platform channel: bilibili, v2ex, github, youtube, web, xiaohongshu, xueqiu, boss, xiaoyuzhou, linkedin, reddit, twitter, facebook, instagram, or read (fetch any URL via auto channel routing).",
+        "type": "string"
+      },
+      "action": {
+        "description": "Channel action, e.g. search, hot, video, user, repo, issue, thread, quote, jobs. Run with empty action to list what the channel supports.",
+        "type": "string"
+      },
+      "query": {
+        "description": "Search keywords, ID, or topic for the channel action.",
+        "type": "string"
+      },
+      "url": {
+        "description": "Full URL to read when channel is read (auto-selects the right channel).",
+        "type": "string"
+      }
+    }
+  },
+  "imported": true
+}

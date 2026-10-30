@@ -1,0 +1,60 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/refs/heads/master/server/utils/agents/imported-manifest.schema.json",
+  "active": true,
+  "hubId": "context7-docs",
+  "name": "Context7 Up-to-date Docs",
+  "schema": "skill-1.0.0",
+  "version": "1.0.0",
+  "description": "Fetches current, version-specific library documentation and code examples from Context7 (search, resolve library ID, get docs). Use when the user asks about a library or framework API, setup steps, or code generation that may be outdated in training data.",
+  "author": "BMI AI Assistant",
+  "author_url": "https://github.com/upstash/context7",
+  "license": "MIT",
+  "setup_args": {
+    "CONTEXT7_API_KEY": {
+      "type": "string",
+      "required": true,
+      "input": {
+        "type": "text",
+        "default": "",
+        "placeholder": "ctx7sk-...",
+        "hint": "Free API key from https://context7.com/dashboard for higher rate limits. Without a key, limits are low."
+      }
+    }
+  },
+  "examples": [
+    {
+      "prompt": "How do I stream an OpenAI response from a Next.js route?",
+      "call": "{\"query\": \"How do I stream an OpenAI response from a Next.js route?\", \"libraryName\": \"Next.js\"}"
+    },
+    {
+      "prompt": "Show me the Supabase auth API for email/password sign-up",
+      "call": "{\"query\": \"email password sign-up\", \"libraryId\": \"/supabase/supabase\"}"
+    },
+    {
+      "prompt": "Next.js 16 proxy that checks JWT in cookies",
+      "call": "{\"query\": \"proxy that checks JWT in cookies and redirects to login\", \"libraryId\": \"/vercel/next.js\", \"language\": \"TypeScript\"}"
+    }
+  ],
+  "entrypoint": {
+    "file": "handler.js",
+    "params": {
+      "query": {
+        "description": "Specific natural-language question about the library (specific questions rank best). Required.",
+        "type": "string"
+      },
+      "libraryName": {
+        "description": "Library name to resolve first (e.g. Next.js, React, Supabase). Used with query when libraryId is unknown.",
+        "type": "string"
+      },
+      "libraryId": {
+        "description": "Exact Context7 library ID, e.g. /vercel/next.js or /supabase/supabase. Skips the resolve step. Pin versions like /vercel/next.js/v16.2.9.",
+        "type": "string"
+      },
+      "language": {
+        "description": "Programming language to rank code examples (e.g. TypeScript, Python). Optional.",
+        "type": "string"
+      }
+    }
+  },
+  "imported": true
+}

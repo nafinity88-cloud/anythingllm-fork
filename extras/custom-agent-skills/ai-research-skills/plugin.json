@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/refs/heads/master/server/utils/agents/imported-manifest.schema.json",
+  "active": true,
+  "hubId": "ai-research-skills",
+  "name": "AI Research Skills",
+  "schema": "skill-1.0.0",
+  "version": "1.0.0",
+  "description": "Routes AI-research questions to the right specialist skill (training, fine-tuning, RLHF, evaluation, inference, RAG, agents, paper writing) and fetches its expert SKILL.md from the Orchestra Research library. Use when the user asks about ML/AI research, model training, or paper writing.",
+  "author": "BMI AI Assistant",
+  "author_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+  "license": "MIT",
+  "examples": [
+    {
+      "prompt": "How do I fine-tune Llama with QLoRA using Unsloth?",
+      "call": "{\"request\": \"fine-tune Llama with QLoRA\", \"category\": \"fine-tuning\", \"skill_name\": \"unsloth\"}"
+    },
+    {
+      "prompt": "What skills are available for RLHF and post-training?",
+      "call": "{\"request\": \"post-training options\", \"category\": \"post-training\"}"
+    },
+    {
+      "prompt": "Help me write a NeurIPS paper",
+      "call": "{\"request\": \"write ML paper\", \"category\": \"ml-paper-writing\"}"
+    }
+  ],
+  "entrypoint": {
+    "file": "handler.js",
+    "params": {
+      "request": {
+        "description": "The user's AI-research question or task in plain words. Used for routing when category/skill_name are omitted.",
+        "type": "string"
+      },
+      "category": {
+        "description": "One of: autoresearch, model-architecture, tokenization, fine-tuning, mechanistic-interpretability, data-processing, post-training, safety-alignment, distributed-training, infrastructure, optimization, evaluation, inference-serving, mlops, agents, rag, prompt-engineering, observability, multimodal, emerging-techniques, ml-paper-writing, research-ideation, agent-native-research-artifact.",
+        "type": "string"
+      },
+      "skill_name": {
+        "description": "Specific skill slug, e.g. grpo-rl-training, vllm, peft, faiss, langchain, dspy, whisper, flash-attention, megatron-core, lm-evaluation-harness.",
+        "type": "string"
+      }
+    }
+  },
+  "imported": true
+}
